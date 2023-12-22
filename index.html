@@ -1,0 +1,1125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    
+    
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    
+    
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+    
+    <title>NANO-TECH.SPB.RU</title>
+    
+</head>
+<body id="page">
+ 
+    <!--========== ALL MODALLS ==========-->
+    
+    <!-- FOR PLAYER -->
+    <div class="video__popup" id="popup">
+        <div id="popup-inner">
+            <div class="video__popup-close" id="popup-close">
+                <i class='bx bx-x'></i>
+            </div>
+    
+            <!-- <iframe class="video__popup-video" src="https://www.youtube.com/embed/JrU6bsuNU7Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+        </div>
+    </div>
+    
+    <!-- FOR SUBMIT -->
+    <div class="modal" id="becomeClientModal">
+        <div class="modal__inner" id="modal-inner">
+            <h4 class="title-black">Отправить заявку</h4>
+            <div class="modal-close" id="modal-close">
+                <i class='bx bx-x'></i>
+            </div>
+            <div class="request-form__content" >                      
+                <form action="/" method="POST" >
+                    <div class="form__inputs">
+                        <div class="form__group" >
+                            <label for="name1">Ваше Имя</label>
+                            <input class="input-black input-black--user" type="text" placeholder="Имя" name="name1" id="name1">
+                        </div>     
+                        <div class="form__group">
+                            <label for="tel1">Ваш Телефон</label>
+                            <input class="input-black input-black--phone tel" type="tel" placeholder="+ 7 ( _ _ _ )  _ _ _ - _ _ - _ _" name="tel1" id="tel1">
+                        </div>  
+                    </div>
+                      
+                    <div class=" for-btn--form">
+                        <button class="modal__btn btn" type="submit">Отправить</button>
+                        <p>Нажимая кнопку “Отправить”, вы соглашаетесь на обработку <a href="#!">персональных данных</a></p>
+                            
+                    </div>      
+                </form>
+            </div>
+        </div>
+    </div>
+    
+       
+    
+    
+    <header class="header">
+    <!--  BEGIN BURGER MENU -->
+    <div class="burger-menu" id="navmenu">
+        
+        <div class="container">
+            <div class="burger__container">
+                
+                <ul class="burger-menu__list">
+                    <li><a href="#where">Где применяется сетка Фарадея</a></li>
+                    <li><a href="#advantages">Основные преимущества</a></li>
+                    <li><a href="#video">Видео</a></li>
+                    <li><a href="#gallery">Фотогаллерея</a></li>
+                    <li><a href="#zakaz">Заказать</a></li>
+                    <li><a href="#table">Таблица сравнения</a></li>
+                    <li><a href="#sert">Наши сертификаты</a></li>
+                </ul>
+                <div class="burger-menu__contact">
+                    <div class="burger-menu__contact-adress">
+                        <div class="burger-menu__contact-street">
+                            м Петроградская, Каменоостровский 34
+                        </div>
+                        <div class="burger-menu__contact-time">
+                           <span>Пн-Пт 11:00 — 20:00</span> 
+                           <span>Сб-Вc 11:00 — 18:00</span>
+                        </div>
+                    </div>
+                    <div class="burger-menu__contact-phone">
+                        <a href="tel:+79111174711" class="header__contact-number">
+                            +7 (911) 117-47-11
+                        </a>
+                        <div class="header__contact-online">
+                            <span style="background: yellowgreen;"></span>звоните, сейчас работаем
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+       
+    </div>
+    <!-- END OF BURGER MENU -->
+        <div class="container header-container">
+            <div class="header__left">
+                <a href="#!" class="header__logo">Nano-spb</a>
+                <div class="header__nav" id="navToggle">
+                    <i class='bx bx-menu toggle-burger'></i>
+                    <i class='bx bx-x toggle-close'></i>
+                </div>
+              
+            </div>
+            <div class="header__right">
+                <div class="header__contact">
+                    <div class="header__contact-adress">
+                        <div class="header__contact-street">
+                            м Петроградская, Каменоостровский 34
+                        </div>
+                        <div class="header__contact-time">
+                           <span>Пн-Пт 11:00 — 20:00</span> 
+                           <span>Сб-Вc 11:00 — 18:00</span>
+                        </div>
+                    </div>
+                    <div class="header__contact-phone">
+                        <a href="tel:+79111174711" class="header__contact-number">
+                            +7 (911) 117-47-11
+                        </a>
+                        <div class="header__contact-online">
+                            <span style="background: yellowgreen;"></span>звоните, сейчас работаем
+                        </div>
+                    </div>
+                </div>
+                <div class="header__btn btn" data-modal="#becomeClientModal">
+                    Оставить заявку
+                </div>
+            </div>
+    
+        </div>
+    </header>
+    <section class="intro">
+        <div class="container">
+            <div class="intro__container">
+                <div class="intro__left">
+                    <p class="intro__pre-title">
+                        Oборудование для безопасности
+                    </p>
+                    <h1 class="intro__title">
+                        <span>ЭКРАНИРУЮЩАЯ </span>
+                        ТКАНЬ ФАРАДЕЯ
+                    </h1>
+                    <div class="intro__descr">
+    
+                        Необходимая <span>для защиты здоровья, данных и оборудования</span>
+                        от радиоэлектронных излучений
+                    </div>
+                    <div class="intro__left-bottom">
+                        <div class="intro__btn btn" data-modal="#becomeClientModal">
+                            Оставить заявку
+                        </div>
+                       
+                        <div class="intro__video-link video-content" data-src="https://www.youtube.com/embed/TuCX5W32Hvg?autoplay=1">
+                            <div class="intro__video-icon ">
+                             
+                                <img src="assets/images/play_black.svg" alt="">
+                               
+                            </div>
+                            <!-- <div class="intro__video-icon-border">
+    
+                            </div> -->
+                            <span>Смотреть видео</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="intro__right">
+                    <picture>
+                        <source type="image/webp" srcset="assets/images/intro_image.webp">
+                        <img src="assets/images/intro_image.png" alt="photo-intro">
+                    </picture>
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    
+    <section class="section" id="where">
+        <div class="where section__white">
+            <picture>
+                <source type="image/webp" srcset="assets/images/tkan.webp">
+                <img src="assets/images/tkan.jpg" alt="img" class="where-bg1">
+            </picture>
+            <!-- <img class="where-bg1" src="assets/images/tkan.jpg" alt=""> -->
+            <div class="container">
+                <h2 class="title title-black">
+                    Где применяется сетка Фарадея:
+                </h2>
+                <p class="descr">
+                    Экранирующие ткани на основе принципа клетки Фарадея открывают широкие технологические возможности в производстве одежды, аксессуаров, создании интерьеров, бизнеса, медицины
+                </p>
+                <div class="where__container swiper">
+                    <div class="swiper-wrapper">
+                        <div class="where__item swiper-slide">
+                            <img class="where__item-bg" src="assets/images/fon/fon_ic3.png" alt="fon">
+                            <h3 class="where__item-title">
+                                В повседневной жизни
+                            </h3>
+                            <ul class="where__item-content">
+                                <li class="where__item-text">
+                                    <img src="assets/images/icons/ic1.svg" alt="">
+                                    Защита от электромагнитных излучений (ЭМИ);
+                                </li>
+                                <li class="where__item-text">
+                                    <img src="assets/images/icons/ic2.svg" alt="">
+                                    Защита от радиосигналов: исходящих и входящих;
+                                </li>
+                                <li class="where__item-text">
+                                    <img src="assets/images/icons/ic3.svg" alt="">
+                                    Производство повседневной и рабочей одежды, одежды для беременных;
+                                </li>
+                                <li class="where__item-text">
+                                    <img src="assets/images/icons/ic4.svg" alt="">
+                                    Создание защиты для автомобильных устройств, предотвращающей угоны;
+                                </li>
+                                
+                            </ul>
+                            
+                        </div>
+                        <div class="where__item swiper-slide">
+                            <img class="where__item-bg" src="assets/images/fon/fon_ic2.png" alt="fon">
+                            <h3 class="where__item-title">
+                                В медицине
+                            </h3>
+                            <ul class="where__item-content" >
+                                <li class="where__item-text">
+                                    <img src="assets/images/icons/ic5.svg" alt="">
+                                    Экранирование специализированных медицинских помещений – кабинеты МРТ, рентгеновского обследования, УЗИ и других;
+                                </li>
+                                <li class="where__item-text">
+                                    <img src="assets/images/icons/ic6.svg" alt="">
+                                    Экранирование переговорных комнаты в офисах коммерческих организаций, исключающих видеосъемку и прослушивание;
+                                </li>
+                                <li class="where__item-text">
+                                    <img src="assets/images/icons/ic7.svg" alt="">
+                                    Пошив защитных чехлов для транспортировки оборудования, чувствительного к излучению;
+                                </li>
+    
+                            </ul>
+                            
+                        </div>
+                        <div class="where__item swiper-slide" >
+                            <img class="where__item-bg" src="assets/images/fon/fon_ic4.png" alt="fon">
+                            <h3 class="where__item-title">
+                                В военной промышленности
+                            </h3>
+                            <ul class="where__item-content">
+                                <li class="where__item-text">
+                                    <img src="assets/images/icons/ic8.svg" alt="">
+                                    Ткани используются в перевозке оборудования и устройств военно-промышленного комплекса, поскольку экранирующие ткани Фарадея полностью исключают утечки информации о маршруте;
+                                </li>
+                                <li class="where__item-text">
+                                    <img src="assets/images/icons/ic9.svg" alt="">
+                                    Пошив одежды и изготовление экранов от инфракрасного облучения;
+                                </li>
+                      
+                                
+                            </ul>
+                            
+                        </div>
+                        <div class="where__item swiper-slide" >
+                            <img class="where__item-bg" src="assets/images/fon/fon_ic1.png" alt="fon">
+                            <h3 class="where__item-title">
+                                В помещении
+                            </h3>
+                            <ul class="where__item-content">
+                                <li class="where__item-text">
+                                    <img src="assets/images/icons/ic10.svg" alt="">
+                                    Обустройство помещений, где используются или реализуются высокие технологии;
+        
+                                </li>
+                                <li class="where__item-text">
+                                    <img src="assets/images/icons/ic11.svg" alt="">
+                                    Создание безопасных помещений от излучений 5G ;
+                                </li>
+                                <li class="where__item-text">
+                                    <img src="assets/images/icons/ic12.svg" alt="">
+                                    Пошив штор и навесов для защиты от прослушивания через оконо
+                                </li>
+                        
+                                
+                            </ul>
+                            
+                        </div>
+                       
+                    </div>
+                    <div class="swiper-pagination" id="where-pagination"></div>
+                   
+                </div>
+               
+            </div>
+        </div>
+       
+    </section>
+    <section class="section advantages" id="advantages">
+        <div class="container">
+            <h2 class="title__white">
+                Основные преимущества
+            </h2>
+            <div class="advantages__container">
+                <div class="advantages__item">
+                    <div class="advantages__item-icon"> 
+                        <i class='bx bx-wifi-off'></i>
+                    </div>
+                    <div class="advantages__item-content">
+                        <h3>Блокировка сигналов</h3>
+                        <p>Защита электронных гаджетов от дистанционного вмешательства, согласно многочисленным исследованиям и практическому опыту устройство, помещенное в экранирующий материал, прекращает функционировать, то есть любые сигналы – полностью блокируются, подобно выемки аккумуляторной батареи;</p>
+                    </div>
+                </div>
+                <div class="advantages__item">
+                    <div class="advantages__item-icon"> 
+                        <i class='bx bxs-file-doc'></i>
+                    </div>
+                    <div class="advantages__item-content">
+                        <h3>Защита гаджетов</h3>
+                        <p>Производство защитных  чехлов и сумок для умных гаджетов, банковских карт, электронных девайсов;</p>
+                    </div>
+                </div>
+                <div class="advantages__item">
+                    <div class="advantages__item-icon"> 
+                        <i class='bx bxs-face-mask'></i>
+                    </div>
+                    <div class="advantages__item-content">
+                        <h3>Защита на производстве</h3>
+                        <p>Пошив рабочей униформы для персонала специализированных предприятий;</p>
+                    </div>
+                </div>
+                <div class="advantages__item">
+                    <div class="advantages__item-icon"> 
+                        <i class='bx bxs-lock-open-alt' ></i>
+                    </div>
+                    <div class="advantages__item-content">
+                        <h3>Блокировочные боксы</h3>
+                        <p>Изготовление блокирующих коробок</p>
+                    </div>
+                </div>
+                <div class="advantages__item">
+                    <div class="advantages__item-icon"> 
+                        <i class='bx bxs-mask' ></i>
+                    </div>
+                    <div class="advantages__item-content">
+                        <h3>Безопасность</h3>
+                        <p>Создание условий безопасности и конфиденциальности в условиях, если нужно «исчезнуть» от информационных систем;</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section" id="video">
+        <div class="video section__white">
+            <picture>
+                <source type="image/webp" srcset="assets/images/tkan2.webp">
+                <img src="assets/images/tkan2.png" alt="img" class="video-bg">
+            </picture>
+            <!-- <img class="video-bg" src="assets/images/tkan2.png" alt=""> -->
+            <div class="container">
+                <h2 class="video-title title-black">
+                    Видео
+                </h2>
+               <div class="video__container">
+                <div class="arrows">
+                    <div class="arr arr--prev" id="video-prev">
+                        <span> &#10229;</span>
+                    </div>
+                    <div class="arr arr--next" id="video-next">
+                        <span> &#10230;</span>
+                    </div>
+                </div>
+                <div class="video__slider swiper">
+                    <div class="swiper-wrapper">
+                        <div class="video__item swiper-slide video-content" data-src="https://www.youtube.com/embed/uBOQB8SZ3NE?autoplay=1">
+                            
+                            <div class="video__item-photo">
+                                <div class="video__item-play">
+                                    <div>
+                                        <img src="assets/images/play_black.svg" alt="">
+                                    </div>
+                                    
+                                </div>
+                                <img src="assets/images/vid1.jpg" alt="">
+                            </div>
+                            <div class="video__item-text">Ткань Фарадея , блокирующая любой сигнал</div>
+                        </div>
+                        <div class="video__item swiper-slide video-content" data-src="https://www.youtube.com/embed/GZh52Fh8o1o?autoplay=1">
+                            <div class="video__item-photo">
+                                <div class="video__item-play">
+                                    <div>
+                                        <img src="assets/images/play_black.svg" alt="">
+                                    </div>
+                                </div>
+                                <img src="assets/images/vid2.jpg" alt="">
+                            </div>
+                            <div class="video__item-text">Ткань Фарадея , блокирующая любой сигнал</div>
+                        </div>
+                        <div class="video__item swiper-slide video-content" data-src="https://www.youtube.com/embed/bixndvd-H0Y?autoplay=1">
+                            <div class="video__item-photo">
+                                <div class="video__item-play">
+                                    <div>
+                                        <img src="assets/images/play_black.svg" alt="">
+                                    </div>
+                                </div>
+                                <img src="assets/images/vid2.jpg" alt="">
+                            </div>
+                            <div class="video__item-text">Ткань Фарадея , блокирующая любой сигнал</div>
+                        </div>
+                        <div class="video__item swiper-slide video-content" data-src="https://www.youtube.com/embed/uBOQB8SZ3NE?autoplay=1">
+                     
+                            <div class="video__item-photo">
+                                <div class="video__item-play">
+                                    <div>
+                                        <img src="assets/images/play_black.svg" alt="">
+                                    </div>
+                                </div>
+                                <img src="assets/images/vid2.jpg" alt="">
+                            </div>
+                            <div class="video__item-text">Ткань Фарадея , блокирующая любой сигнал</div>
+                        </div>
+                        <div class="video__item swiper-slide video-content" data-src="https://www.youtube.com/embed/uBOQB8SZ3NE?autoplay=1">
+                     
+                            <div class="video__item-photo">
+                                <div class="video__item-play">
+                                    <div>
+                                        <img src="assets/images/play_black.svg" alt="">
+                                    </div>
+                                </div>
+                                <img src="assets/images/vid2.jpg" alt="">
+                            </div>
+                            <div class="video__item-text">Ткань Фарадея , блокирующая любой сигнал</div>
+                        </div>
+                    </div>
+                    
+                    
+                   
+                </div>
+    
+               </div>
+            </div>
+        </div>
+        
+    </section>
+    <section class="gallery section" id="gallery">
+        <div class="container">
+            <h2 class="title__white">
+                Фотогаллерея
+            </h2>
+            <div class="gallery__container">
+                <div class="gallery__header">
+                    <div class="gallery__tags" id="gallery-filter">
+                        <span class="gallery__tags-item active" data-target="all">
+                            Все фото
+                        </span>
+                        <span class="gallery__tags-item" data-target="tkan">
+                            Фото ткани
+                        </span>
+                        <span class="gallery__tags-item" data-target="finished">
+                            Выполненные проекты
+                        </span>
+                    </div>
+                    <div class="arrows">
+                        <div class="arr-inverse arr--prev " id="gal-prev">
+                            <span> &#10229;</span>
+                           
+                        </div>
+                        <div class="arr-inverse arr--next" id="gal-next">
+                            <span> &#10230;</span>
+                           
+                        </div>
+                    </div>
+        
+                </div>
+                
+                <div class="gallery__items swiper">
+                    <div class="swiper-wrapper">
+                        <!-- <div class="swiper-slide gall-item">
+                            1
+                        </div>
+                        <div class="swiper-slide gall-item">
+                            2
+                        </div>
+                        <div class="swiper-slide gall-item">
+                            3
+                        </div>
+                        <div class="swiper-slide gall-item">
+                            4
+                        </div>
+                        <div class="swiper-slide gall-item">
+                            5
+                        </div>
+                        <div class="swiper-slide gall-item">
+                            6
+                        </div>
+                        <div class="swiper-slide gall-item">
+                            7
+                        </div>
+                        <div class="swiper-slide gall-item">
+                            8
+                        </div>
+                        <div class="swiper-slide gall-item">
+                            9
+                        </div>
+                        <div class="swiper-slide gall-item">
+                            10
+                        </div>
+                        <div class="swiper-slide gall-item">
+                            11
+                        </div> -->
+                        <div class="swiper-slide gall-item" data-category="finished tkan">
+                            <a href="assets/images/vid1.jpg" class="gall-item__link link">
+                                <img src="assets/images/vid1.jpg" alt="">
+                            </a>
+                            
+                        </div>
+                        <div class="swiper-slide gall-item" data-category="finished tkan">
+                            <a href="assets/images/vid2.jpg" class="gall-item__link link">
+                                <img src="assets/images/vid2.jpg" alt="">
+                            </a>
+                            
+                        </div>
+                        <div class="swiper-slide gall-item" data-category="tkan">
+                            <a href="assets/images/vid3.jpg" class="gall-item__link link">
+                                <img src="assets/images/vid3.jpg" alt="">
+                            </a>
+                            
+                        </div>
+                        <div class="swiper-slide gall-item" data-category="finished tkan">
+                            <a href="assets/images/vid1.jpg" class="gall-item__link link">
+                                <img src="assets/images/vid1.jpg" alt="">
+                            </a>
+                           
+                        </div>
+                        <div class="swiper-slide gall-item" data-category="tkan">
+                            <a href="assets/images/vid2.jpg" class="gall-item__link link">
+                                <img src="assets/images/vid2.jpg" alt="">
+                            </a>
+                            
+                        </div>
+                        <div class="swiper-slide gall-item" data-category="finished">
+                            <a href="assets/images/vid3.jpg" class="gall-item__link link">
+                                <img src="assets/images/vid3.jpg" alt="">
+                            </a>
+                            
+                        </div>
+                        <div class="swiper-slide gall-item" data-category="tkan">
+                            <a href="assets/images/vid1.jpg" class="gall-item__link link">
+                                <img src="assets/images/vid1.jpg" alt="">
+                            </a>
+                            
+                        </div>
+                        <div class="swiper-slide gall-item" data-category="finished tkan">
+                            <a href="assets/images/vid2.jpg" class="gall-item__link link">
+                                <img src="assets/images/vid2.jpg" alt="">
+                            </a>
+                           
+                        </div>
+                        <div class="swiper-slide gall-item" data-category="tkan">
+                            <a href="assets/images/vid3.jpg" class="gall-item__link link">
+                                <img src="assets/images/vid3.jpg" alt="">
+                            </a>
+                            
+                        </div>
+                        <div class="swiper-slide gall-item" data-category="tkan">
+                            <a href="assets/images/vid1.jpg" class="gall-item__link link">
+                                <img src="assets/images/vid1.jpg" alt="">
+                            </a>
+                           
+                        </div>
+                        <div class="swiper-slide gall-item" data-category="finished">
+                            <a href="assets/images/vid2.jpg" class="gall-item__link link">
+                                <img src="assets/images/vid2.jpg" alt="">
+                            </a>
+                           
+                        </div>
+                        <div class="swiper-slide gall-item" data-category="tkan">
+                            <a href="assets/images/vid3.jpg" class="gall-item__link link">
+                                <img src="assets/images/vid3.jpg" alt="">
+                            </a>
+                          
+                        </div>
+                    </div>
+                       
+    
+                    </div>
+                </div>
+           
+           
+            <div class="zakaz" id="zakaz">
+                <h2 class="title">
+                    ЗАКАЖИТЕ <span>ЭКРАНИРУЮЩИЕ МАТЕРИАЛЫ</span>
+                </h2>
+                <div class="zakaz__tags" id="zakaz-filter">
+                    <span class="zakaz__tags-item active" data-target="all">
+                        все
+                    </span>
+                    <span class="zakaz__tags-item" data-target="0.08">
+                        0.08
+                    </span>
+                    <span class="zakaz__tags-item" data-target="0.12">
+                        0.12
+                    </span>
+                </div>
+                <div class="arr-inverse arr--prev" id="zak-prev">
+                    <span> &#10229;</span>
+                    
+                </div>
+                <div class="arr-inverse arr--next" id="zak-next">
+                    <span> &#10230;</span>
+                    
+                </div>
+              
+                <!-- Swiper -->
+                <div class="swiper zakaz__container">
+                    <div class="swiper-wrapper">
+                        <div class="zakaz__item swiper-slide" data-category="0.08">
+                            <a href="assets/images/pic1.jpg" class="zakaz__item-photo link2">
+                                <img src="assets/images/pic1.jpg" alt="">
+                            </a>
+                            <div class="zakaz__item-text">
+                                <div class="zakaz__item-text-top">
+                                    <div class="zakaz__item-metres">
+                                        10 метров
+                                    </div>
+                                    <div class="zakaz__item-price">
+                                        20 000 <span>&#8381;</span>
+                                    </div>
+                                    <div class="zakaz__item-plotnost">
+                                        <span>Плотность: </span>0,08 мм
+                                    </div>
+                                </div>
+                            <div class="zakaz__btn" data-modal="#becomeClientModal">
+                                    <div class="zakaz__btn-block">
+                                    Заказать
+                                    </div>
+                                    <div class="zakaz__btn-back">
+                                        
+                                    </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="zakaz__item  swiper-slide" data-category="0.08">
+                            <a href="assets/images/pic2.jpg" class="zakaz__item-photo link2">
+                                <img src="assets/images/pic2.jpg" alt="">
+                            </a>
+                            <div class="zakaz__item-text">
+                                <div class="zakaz__item-text-top">
+                                    <div class="zakaz__item-metres">
+                                        10 метров
+                                    </div>
+                                    <div class="zakaz__item-price">
+                                        20 000 <span>&#8381;</span>
+                                    </div>
+                                    <div class="zakaz__item-plotnost">
+                                        <span>Плотность: </span>0,08 мм
+                                    </div>
+                                </div>
+                            <div class="zakaz__btn" data-modal="#becomeClientModal">
+                                    <div class="zakaz__btn-block">
+                                    Заказать
+                                    </div>
+                                    <div class="zakaz__btn-back"> </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="zakaz__item  swiper-slide" data-category="0.12">
+                            <a href="assets/images/pic2.jpg" class="zakaz__item-photo link2">
+                                <img src="assets/images/pic2.jpg" alt="">
+                            </a>
+                            <div class="zakaz__item-text">
+                                <div class="zakaz__item-text-top">
+                                    <div class="zakaz__item-metres">
+                                        10 метров
+                                    </div>
+                                    <div class="zakaz__item-price">
+                                        20 000 <span>&#8381;</span>
+                                    </div>
+                                    <div class="zakaz__item-plotnost">
+                                        <span>Плотность: </span>0,12 мм
+                                    </div>
+                                </div>
+                            <div class="zakaz__btn" data-modal="#becomeClientModal">
+                                    <div class="zakaz__btn-block">
+                                    Заказать
+                                    </div>
+                                    <div class="zakaz__btn-back"> </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="zakaz__item  swiper-slide" data-category="0.12">
+                            <a href="assets/images/pic2.jpg" class="zakaz__item-photo link2">
+                                <img src="assets/images/pic2.jpg" alt="">
+                            </a>
+                            <div class="zakaz__item-text">
+                                <div class="zakaz__item-text-top">
+                                    <div class="zakaz__item-metres">
+                                        10 метров
+                                    </div>
+                                    <div class="zakaz__item-price">
+                                        20 000 <span>&#8381;</span>
+                                    </div>
+                                    <div class="zakaz__item-plotnost">
+                                        <span>Плотность: </span>0,12 мм
+                                    </div>
+                                </div>
+                            <div class="zakaz__btn" data-modal="#becomeClientModal">
+                                    <div class="zakaz__btn-block">
+                                    Заказать
+                                    </div>
+                                    <div class="zakaz__btn-back"> </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="zakaz__item  swiper-slide" data-category="0.08">
+                            <a href="assets/images/pic2.jpg" class="zakaz__item-photo link2">
+                                <img src="assets/images/pic2.jpg" alt="">
+                            </a>
+                            <div class="zakaz__item-text">
+                                <div class="zakaz__item-text-top">
+                                    <div class="zakaz__item-metres">
+                                        10 метров
+                                    </div>
+                                    <div class="zakaz__item-price">
+                                        20 000 <span>&#8381;</span>
+                                    </div>
+                                    <div class="zakaz__item-plotnost">
+                                        <span>Плотность: </span>0,08 мм
+                                    </div>
+                                </div>
+                            <div class="zakaz__btn" data-modal="#becomeClientModal">
+                                    <div class="zakaz__btn-block">
+                                    Заказать
+                                    </div>
+                                    <div class="zakaz__btn-back"> </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="zakaz__item  swiper-slide" data-category="0.12">
+                            <a href="assets/images/pic2.jpg" class="zakaz__item-photo link2">
+                                <img src="assets/images/pic2.jpg" alt="">
+                            </a>
+                            <div class="zakaz__item-text">
+                                <div class="zakaz__item-text-top">
+                                    <div class="zakaz__item-metres">
+                                        10 метров
+                                    </div>
+                                    <div class="zakaz__item-price">
+                                        20 000 <span>&#8381;</span>
+                                    </div>
+                                    <div class="zakaz__item-plotnost">
+                                        <span>Плотность: </span>0,12 мм
+                                    </div>
+                                </div>
+                            <div class="zakaz__btn" data-modal="#becomeClientModal">
+                                    <div class="zakaz__btn-block">
+                                    Заказать
+                                    </div>
+                                    <div class="zakaz__btn-back"> </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="zakaz__item  swiper-slide" data-category="0.08">
+                            <a href="assets/images/pic2.jpg" class="zakaz__item-photo link2">
+                                <img src="assets/images/pic2.jpg" alt="">
+                            </a>
+                            <div class="zakaz__item-text">
+                                <div class="zakaz__item-text-top">
+                                    <div class="zakaz__item-metres">
+                                        10 метров
+                                    </div>
+                                    <div class="zakaz__item-price">
+                                        20 000 <span>&#8381;</span>
+                                    </div>
+                                    <div class="zakaz__item-plotnost">
+                                        <span>Плотность: </span>0,08 мм
+                                    </div>
+                                </div>
+                            <div class="zakaz__btn" data-modal="#becomeClientModal">
+                                    <div class="zakaz__btn-block">
+                                    Заказать
+                                    </div>
+                                    <div class="zakaz__btn-back"> </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="zakaz__item  swiper-slide" data-category="0.12">
+                            <a href="assets/images/pic2.jpg" class="zakaz__item-photo link2">
+                                <img src="assets/images/pic2.jpg" alt="">
+                            </a>
+                            <div class="zakaz__item-text">
+                                <div class="zakaz__item-text-top">
+                                    <div class="zakaz__item-metres">
+                                        10 метров
+                                    </div>
+                                    <div class="zakaz__item-price">
+                                        20 000 <span>&#8381;</span>
+                                    </div>
+                                    <div class="zakaz__item-plotnost">
+                                        <span>Плотность: </span>0,12 мм
+                                    </div>
+                                </div>
+                            <div class="zakaz__btn" data-modal="#becomeClientModal">
+                                    <div class="zakaz__btn-block">
+                                    Заказать
+                                    </div>
+                                    <div class="zakaz__btn-back"> </div>
+                            </div>
+                            </div>
+                        </div>
+                    
+                    </div>
+                </div>
+       
+            </div>
+               
+                <div class="seo-text">
+                        <div>Экранирующие ткани можно использовать для защиты зданий и помещений любого масштаба и конфигурации. Ткань Фарадея давно и широко применяют для экранирования научных лабораторий, кабинетов первых лиц, обустройства комнат для детей, медицинских кабинетов. Они надежно блокируют излучения в широком диапазоне, не содержат в своем составе опасных, вредных или токсичных компонентов, а потому экологически безопасны и универсальны.</div>
+                        <div>Финансовые вложения в защиту информации, человека и техники разрешают существенно сберечь средства в долгосрочной перспективе. Экранирующие материалы продлят рабочий ресурс оборудования, сохранят здоровье людям, не позволят злоумышленникам получить конфиденциальную информацию.</div>
+                        
+                </div>
+        </div>
+        <!-- </div> -->
+    
+    </section>
+    <section class="section" id="table">
+        <div class="section__white">
+           
+            <div class="container">
+                <h2 class="table-title title-black">
+                    Коэффициент экранирования К<sub>экр</sub>  для заданных частот
+                </h2>
+                <div class="table__container">
+                    <div class="table__container-header" id="cat-filter">
+                        <div class="table-title active" data-target="0.08"><span>Коэффициент экранирования</span> 0.08 мм</div>
+                        <div class="table-title" data-target="0.16"><span>Коэффициент экранирования</span> 0.16 мм</div>
+                    </div>
+                    <div class="table__tables">
+                        <div class="table-item show" data-category="0.08">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                      <th>tab1 ƒ, MГц</th>
+                                      <th>К<sub>прох</sub>, дБ</th>
+                                      <th>К<sub>экр</sub>, дБ</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <td>30</td>
+                                      <td>-74.9</td>
+                                      <td>-74.9</td>
+                                    </tr>
+                                    <tr>
+                                        <td>100</td>
+                                        <td>-74.9</td>
+                                        <td>-74.9</td>
+                                      </tr>
+                                      <tr>
+                                        <td>300</td>
+                                        <td>-74.9</td>
+                                        <td>-74.9</td>
+                                      </tr>
+                                      <tr>
+                                        <td>915</td>
+                                        <td>-74.9</td>
+                                        <td>-74.9</td>
+                                      </tr>
+                                      <tr>
+                                        <td>1500</td>
+                                        <td>-74.9</td>
+                                        <td>-74.9</td>
+                                      </tr>
+                                      <tr>
+                                        <td>1800</td>
+                                        <td>-74.9</td>
+                                        <td>-74.9</td>
+                                      </tr>
+                                      <tr>
+                                        <td>3000</td>
+                                        <td>-74.9</td>
+                                        <td>-74.9</td>
+                                      </tr>
+                                      <tr>
+                                        <td>7000</td>
+                                        <td>-74.9</td>
+                                        <td>-74.9</td>
+                                      </tr>
+                                   
+                                  </tbody>
+                            </table>
+                        </div>
+                        <div class="table-item" data-category="0.16">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                      <th>tab2 ƒ, MГц</th>
+                                      <th>К<sub>прох</sub>, дБ</th>
+                                      <th>К<sub>экр</sub>, дБ</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>30</td>
+                                        <td>-74.9</td>
+                                        <td>-74.9</td>
+                                    </tr>
+                                    <tr>
+                                        <td>100</td>
+                                        <td>-74.9</td>
+                                        <td>-74.9</td>
+                                    </tr>
+                                    <tr>
+                                        <td>300</td>
+                                        <td>-74.9</td>
+                                        <td>-74.9</td>
+                                    </tr>
+                                    <tr>
+                                        <td>915</td>
+                                        <td>-74.9</td>
+                                        <td>-74.9</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1500</td>
+                                        <td>-74.9</td>
+                                        <td>-74.9</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1800</td>
+                                        <td>-74.9</td>
+                                        <td>-74.9</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3000</td>
+                                        <td>-74.9</td>
+                                        <td>-74.9</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7000</td>
+                                        <td>-74.9</td>
+                                        <td>-74.9</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sertificat section" id="sert">
+        <div class="container">
+            <h2 class="title__white">
+                Наши  сертификаты
+            </h2>
+            <div class="sert-mobile">
+                <a href="#!" class="sert__item-text">
+                    Протокол испытаний 063-04-23-Д-ВТ от 11042023
+                </a>
+                <a href="#!" class="sert__item-text">
+                    Протокол испытаний 063-04-23-Д-ВТ от 11042023
+                </a>
+                <a href="#!" class="sert__item-text">
+                    Протокол испытаний 063-04-23-Д-ВТ от 11042023
+                </a>
+                <a href="#!" class="sert__item-text">
+                    Протокол испытаний 063-04-23-Д-ВТ от 11042023
+                </a>
+            </div>
+            <div class="sert">
+               
+                <!-- Swiper -->
+                <div class="swiper sert__container">
+                    <div class="swiper-wrapper">
+                        <div class="sert__item swiper-slide">
+                            <div class="sert__item-photo">
+                                <img src="assets/images/sert1.jpg" alt="">
+                            </div>
+                            <a href="#!" class="sert__item-text">
+                                Протокол испытаний 063-04-23-Д-ВТ от 11042023
+                            </a>
+                        </div>
+                        <div class="sert__item swiper-slide">
+                            <div class="sert__item-photo">
+                                <img src="assets/images/sert2.jpg" alt="">
+                            </div>
+                            <a href="#!" class="sert__item-text">
+                                Протокол испытаний 063-04-23-Д-ВТ от 11042023
+                            </a>
+                        </div>
+                        <div class="sert__item swiper-slide">
+                            <div class="sert__item-photo">
+                                <img src="assets/images/sert3.jpg" alt="">
+                            </div>
+                            <a href="#!" class="sert__item-text">
+                                Протокол испытаний 063-04-23-Д-ВТ от 11042023
+                            </a>
+                        </div>
+                        <div class="sert__item swiper-slide">
+                            <div class="sert__item-photo">
+                                <img src="assets/images/sert2.jpg" alt="">
+                            </div>
+                            <a href="#!" class="sert__item-text">
+                                Протокол испытаний 063-04-23-Д-ВТ от 11042023
+                            </a>
+                        </div>
+                        <div class="sert__item swiper-slide">
+                            <div class="sert__item-photo">
+                                <img src="assets/images/sert1.jpg" alt="">
+                            </div>
+                            <a href="#!" class="sert__item-text">
+                                Протокол испытаний 063-04-23-Д-ВТ от 11042023
+                            </a>
+                        </div>
+                        <div class="sert__item swiper-slide">
+                            <div class="sert__item-photo">
+                                <img src="assets/images/sert2.jpg" alt="">
+                            </div>
+                            <a href="#!" class="sert__item-text">
+                                Протокол испытаний 063-04-23-Д-ВТ от 11042023
+                            </a>
+                        </div>
+                        <div class="sert__item swiper-slide">
+                            <div class="sert__item-photo">
+                                <img src="assets/images/sert3.jpg" alt="">
+                            </div>
+                            <a href="#!" class="sert__item-text">
+                                Протокол испытаний 063-04-23-Д-ВТ от 11042023
+                            </a>
+                        </div>
+                        <div class="sert__item swiper-slide">
+                            <div class="sert__item-photo">
+                                <img src="assets/images/sert2.jpg" alt="">
+                            </div>
+                            <a href="#!" class="sert__item-text">
+                                Протокол испытаний 063-04-23-Д-ВТ от 11042023
+                            </a>
+                        </div>
+                     
+                     
+                    </div>
+                    <div class="arr-inverse arr--prev" id="sert-prev">
+                        <span> &#10229;</span>
+                       
+                    </div>
+                    <div class="arr-inverse arr--next" id="sert-next">
+                        <span> &#10230;</span>
+                       
+                    </div>
+                </div>
+              
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__left">
+                <a href="#!" class="footer__logo">Nano-spb</a>
+            </div>
+            <div class="footer__right">
+                <div class="footer__contact">
+                    <div class="footer__contact-adress">
+                        <div class="footer__contact-street">
+                            м Петроградская, Каменоостровский 34
+                        </div>
+                        <div class="footer__contact-time">
+                           <span>Пн-Пт 11:00 — 20:00</span> 
+                           <span>Сб-Вc 11:00 — 18:00</span>
+                        </div>
+                    </div>
+                    <div class="footer__contact-phone">
+                        <a href="tel:+79111174711" class="footer__contact-number">
+                            +7 (911) 117-47-11
+                        </a>
+                        <div class="footer__contact-online">
+                            <span style="background: yellowgreen;"></span>звоните, сейчас работаем
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__btn btn" data-modal="#becomeClientModal">
+                    Оставить заявку
+                </div>
+            </div>
+    
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.7/jquery.inputmask.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    
+    <!-- Magnific Popup CDN JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

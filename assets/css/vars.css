@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "RFDewiExpanded-Black";
+    src: local("RFDewiExpanded-Black"), url("../fonts/RFDewiExpanded-Black.woff") format("woff");
+}
+
+@font-face {
+    font-family: "RFDewiExpanded-Bold";
+  src: local("RFDewiExpanded-Bold"), url("../fonts/RFDewiExpanded-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "RFDewiExpanded-Light";
+  src: local("RFDewiExpanded-Light"), url("../fonts/RFDewiExpanded-Light.woff") format("woff");
+}
+
+@font-face {
+    font-family: "RFDewiExpanded-Regular";
+  src: local("RFDewiExpanded-Regular"), url("../fonts/RFDewiExpanded-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "RFDewiExpanded-Semibold";
+  src: local("RFDewiExpanded-Semibold"), url("../fonts/RFDewiExpanded-Semibold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "RFDewiExpanded-Thin";
+  src: local("RFDewiExpanded-Thin"), url("../fonts/RFDewiExpanded-Thin.woff") format("woff");
+}
